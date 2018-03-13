@@ -1,0 +1,81 @@
+@font-face {
+font-family: chalkfont;
+src: url(Grafipaint.ttf);
+}
+body {
+
+
+ background-image: url('board.jpg');
+ background-size:cover;
+ background-position:center center;
+ background-attachment:fixed;
+
+}
+
+  .main  {
+  width: 90%;
+  margin: auto;
+
+  margin-top: 80px;
+
+}
+
+.wrapper {
+text-align: center;
+margin-bottom: 10px;
+}
+
+
+
+.alert {
+  border: 2px ;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  display: none;
+  font-size: 24px;
+  color: white;
+  font-family: chalkfont;
+}
+
+ i.material-icons1 {
+
+  color: white;
+  margin-top: 10px;
+ }
+ h1 {
+  font-family: chalkfont;
+  color: white;
+
+ }
+ input[type="text"]
+{
+
+color: white;
+font-family: chalkfont;
+}
+
+input[type="email"]
+{
+
+color: white;
+font-family: chalkfont;
+}
+
+input[type="password"]
+{
+
+color: white;
+font-family: chalkfont;
+}
+
+input::placeholder {
+font-size: 18px;
+}
+.fixed-action-btn {
+
+margin-right: 70px;
+
+}
