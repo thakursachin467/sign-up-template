@@ -7,8 +7,11 @@ body {
 
  background-image: url('board.jpg');
  background-size:cover;
- background-position:center center;
+ background-repeat: no-repeat;
+ background-position:center;
  background-attachment:fixed;
+ width: 100vw;
+ height: 100vh;
 
 }
 
@@ -45,11 +48,15 @@ margin-bottom: 10px;
   color: white;
   margin-top: 10px;
  }
+
+
  h1 {
   font-family: chalkfont;
   color: white;
 
  }
+
+
  input[type="text"]
 {
 
@@ -74,8 +81,11 @@ font-family: chalkfont;
 input::placeholder {
 font-size: 18px;
 }
+
+
 .fixed-action-btn {
 
-margin-right: 70px;
+margin-right: 4%;
+
 
 }
